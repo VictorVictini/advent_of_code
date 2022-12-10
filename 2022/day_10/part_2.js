@@ -28,9 +28,9 @@ for (let i = 0; i < 240; i++) {
     }
     if (i % 40 == 0) continue;
     if (pos == currVal || pos == (currVal + 1) || pos == (currVal + 2)) {
-        str += "⬛";
+        str += "🟦";
         continue;
     }
-    str += "⬜";
+    str += "⬛";
 }
 console.log(str);
