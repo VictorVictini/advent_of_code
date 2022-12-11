@@ -62,4 +62,4 @@ for (let c = 0; c < 10000; c++) {
 counter.sort((a, b) => b - a);
 const max = counter[0] * counter[1];
 
-console.log(max, counter);
+console.log(max);
