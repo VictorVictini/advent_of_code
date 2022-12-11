@@ -43,7 +43,6 @@ for (let c = 0; c < 20; c++) {
             item = Math.floor(item / 3);
 
             // incrementing number for inspection
-
             counter[i]++;
 
             // switching the item over to the next monkey
